@@ -1,0 +1,26 @@
+{
+  "name": "cleaner-code",
+  "version": "1.0.0",
+  "description": "Faculty Consultation System API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "runDev": "nodemon app.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^7.3.1",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  }
+}
